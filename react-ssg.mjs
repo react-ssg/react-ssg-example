@@ -4,6 +4,8 @@ import path from "path";
 const dirname = path.dirname(new URL(import.meta.url).pathname);
 process.on('unhandledRejection', (up) => { throw up; });
 
+debugger;
+
 cli({
   path: {
     root: dirname,
